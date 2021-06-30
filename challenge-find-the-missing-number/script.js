@@ -1,7 +1,10 @@
 function missingNum(arr) {
-  //Write your code in here. You should return the missing the number below.
-  return 0;
+  for (let x = 1; x <= arr.length + 1; x++) {
+    if (arr.indexOf(x) === -1) 
+      return x;
+  }
 }
+  //Write your code in here. You should return the missing the number below.
 
 /**                            */
 /**                            */
